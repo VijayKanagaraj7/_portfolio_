@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay Kanagaraj - Actor Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card-container">
+        <!-- Card 1: Introduction -->
+        <div class="card" id="intro-card">
+            <div class="card-content">
+                <div class="intro-text">
+                    <h1 class="gradient-text">Vijay Kanagaraj</h1>
+                    <h2>Actor | Performer | Creative Artist</h2>
+                    <p>At 21 years old, I am passionate about bringing characters to life through compelling performances, dedicated to mastering the craft of acting and creating memorable experiences for audiences.</p>
+                </div>
+                <div class="intro-image">
+                    <img src="images/0.jpg" alt="Vijay Kanagaraj">
+                </div>
+            </div>
+            <div class="nav-buttons first-card">
+                <button class="next-btn">Next</button>
+            </div>
+        </div>
+
+        <!-- Card 2: Physical Attributes -->
+        <div class="card" id="attributes-card">
+            <h2>Physical Attributes & Language Proficiency</h2>
+            <div class="attributes-grid">
+                <div class="attribute-item">
+                    <i class="fas fa-ruler-vertical"></i>
+                    <span>Height: 180 cm</span>
+                </div>
+                <div class="attribute-item">
+                    <i class="fas fa-eye"></i>
+                    <span>Eye Color: Black</span>
+                </div>
+                <div class="attribute-item">
+                    <i class="fas fa-palette"></i>
+                    <span>Skin Tone: Fair (White)</span>
+                </div>
+                <div class="attribute-item">
+                    <i class="fas fa-cut"></i>
+                    <span>Hair Color: Black</span>
+                </div>
+                <div class="attribute-item">
+                    <i class="fas fa-male"></i>
+                    <span>Body Type: Mesomorph</span>
+                </div>
+                <div class="attribute-item">
+                    <i class="fas fa-language"></i>
+                    <span>Languages: Tamil, Malayalam, English</span>
+                </div>
+            </div>
+            <div class="nav-buttons">
+                <button class="prev-btn">Previous</button>
+                <button class="next-btn">Next</button>
+            </div>
+        </div>
+<!-- Card 3: Movie Work Experience -->
+<div class="card" id="work-card">
+    <h2>Movie Work Experience</h2>
+    <div class="experience-grid">
+        <div class="experience-item">
+            <h3>🎬 Ulaga Level</h3>
+            <ul>
+                <li>Role: Camera Assistant</li>
+                <li>Editing: Scene Compilation & Visual Sync</li>
+                <li>Produced by: KPR Students</li>
+                <li>Year: 2023</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h3>🎥 Slip</h3>
+            <ul>
+                <li>Role: Editing and Camera Assistant</li>
+                <li>Genre: Scene compilation & Audio Sync</li>
+                <li>Produced by: KPR Students</li>
+                <li>Year: 2024</li>
+            </ul>
+        </div>
+    </div>
+    <div class="nav-buttons">
+        <button class="prev-btn">Previous</button>
+        <button class="next-btn">Next</button>
+    </div>
+</div>
+
+        <!-- Card 4: Gallery -->
+        <div class="card" id="gallery-card">
+            <h2 class="gallery-title">Gallery</h2>
+            <div class="gallery-container">
+                <div class="gallery-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="2022">2022</button>
+                    <button class="filter-btn" data-filter="2023">2023</button>
+                    <button class="filter-btn" data-filter="2024">2024</button>
+                    <button class="filter-btn" data-filter="2025">2025</button>
+                </div>
+                <div class="gallery-grid" id="gallery-masonry">
+                    <div class="gallery-item" data-year="2022">
+                        <div class="gallery-image-container">
+                            <img src="images/4.jpg" alt="Vijay Kanagaraj Portfolio Image 1">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <div class="overlay-year">2022</div>
+                                    <div class="overlay-icon"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-year="2023">
+                        <div class="gallery-image-container">
+                            <img src="images/3.jpg" alt="Vijay Kanagaraj Portfolio Image 2">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <div class="overlay-year">2023</div>
+                                    <div class="overlay-icon"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-year="2024">
+                        <div class="gallery-image-container">
+                            <img src="images/1.jpg" alt="Vijay Kanagaraj Portfolio Image 3">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <div class="overlay-year">2024</div>
+                                    <div class="overlay-icon"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-year="2025">
+                        <div class="gallery-image-container">
+                            <img src="images/2.jpg" alt="Vijay Kanagaraj Portfolio Image 4">
+                            <div class="gallery-overlay">
+                                <div class="overlay-content">
+                                    <div class="overlay-year">2025</div>
+                                    <div class="overlay-icon"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-buttons">
+                <button class="prev-btn">Previous</button>
+                <button class="next-btn">Next</button>
+            </div>
+        </div>
+
+        <!-- Card 4: Contact -->
+        <div class="card" id="contact-card">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <a href="tel:9360883730" class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>9360883730</span>
+                </a>
+                <a href="mailto:vijaykanagaraj1986@gmail.com" class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>vijaykanagaraj1986@gmail.com</span>
+                </a>
+                <a href="https://instagram.com/vijay_footballer_" target="_blank" class="contact-item">
+                    <i class="fab fa-instagram"></i>
+                    <span>@vijay_footballer_</span>
+                </a>
+            </div>
+            <div class="nav-buttons last-card">
+                <button class="prev-btn">Previous</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="close-lightbox">&times;</span>
+            <img id="lightbox-img" src="" alt="Enlarged portfolio image">
+            <div class="lightbox-controls">
+                <button class="lightbox-prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="lightbox-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
